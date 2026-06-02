@@ -15,7 +15,7 @@ import torch.nn as nn
 from torch.utils.data import DataLoader, TensorDataset
 
 sys.path.insert(0, os.path.dirname(__file__))
-from neural_network.drone.data_loader import build_dataset, FEATURE_COLS  # noqa: E402
+from data_loader import build_dataset, FEATURE_COLS  # noqa: E402
 
 # ── Hyper-parameters ─────────────────────────────────────────────────────────
 INPUT_DIM  = len(FEATURE_COLS)   # 13
