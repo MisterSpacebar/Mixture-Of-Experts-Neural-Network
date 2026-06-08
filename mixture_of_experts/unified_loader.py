@@ -24,7 +24,7 @@ _ROOT = os.path.join(os.path.dirname(__file__), "..", "neural_network")
 # ── Constants (importable by other modules) ───────────────────────────────────
 MAX_FEATURES   = 13    # drone has the most features
 INPUT_DIM      = MAX_FEATURES + 1   # +1 for domain_id   → 14
-MAX_WATER_ROWS = 30_000
+MAX_WATER_ROWS = 250_000
 N_EXPERTS      = 4
 
 DOMAIN_NAMES   = {0: "Cars (EV)", 1: "Water Stations", 2: "River Canal", 3: "Drone Missions"}
